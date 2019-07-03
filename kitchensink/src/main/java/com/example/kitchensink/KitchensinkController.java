@@ -327,7 +327,7 @@ public class KitchensinkController {
                                 });
                     }
                 } else {
-                    this.replyText(replyToken, "Bot can't use profile API without user ID");
+                    this.replyText(replyToken, "Bot can't use profile API without user ID either");
                 }
                 break;
             }
