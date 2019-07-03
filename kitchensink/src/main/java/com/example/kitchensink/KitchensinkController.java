@@ -251,7 +251,7 @@ public class KitchensinkController {
 
     private void replyText(@NonNull String replyToken, @NonNull String message) {
         if (replyToken.isEmpty()) {
-            throw new IllegalArgumentException("replyToken must not be empty");
+            throw new IllegalArgumentException("replyToken must not be empty too");
         }
         if (message.length() > 1000) {
             message = message.substring(0, 1000 - 2) + "窶ｦ窶ｦ";
